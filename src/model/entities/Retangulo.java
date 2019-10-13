@@ -2,14 +2,10 @@ package model.entities;
 
 import model.entities.enums.ColorEnum;
 
-public class Retangulo extends Figura {
+public class Retangulo extends FiguraAbstrata {
 
 	private Double largura;
 	private Double altura;
-
-	public Retangulo() {
-		super();
-	}
 
 	public Retangulo(ColorEnum color, Double largura, Double altura) {
 		super(color);

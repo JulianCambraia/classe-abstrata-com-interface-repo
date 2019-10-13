@@ -2,13 +2,9 @@ package model.entities;
 
 import model.entities.enums.ColorEnum;
 
-public class Circulo extends Figura {
+public class Circulo extends FiguraAbstrata {
 
 	private Double raio;
-
-	public Circulo() {
-		super();
-	}
 
 	public Circulo(ColorEnum color, Double raio) {
 		super(color);
