@@ -3,8 +3,9 @@ package model.entities;
 import model.entities.enums.ColorEnum;
 
 /**
- * Tornei a classe Abstrata para poder delegar a implementação da area() para a próxima classe concreta.
- * Delega a implementação area do contrato para a próxima classe concreta
+ * Tornei a classe Abstrata para poder delegar a implementação da area() para a
+ * próxima classe concreta.
+ * 
  * @author julian
  *
  */
